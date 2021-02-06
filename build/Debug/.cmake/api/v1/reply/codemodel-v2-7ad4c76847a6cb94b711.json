@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UnityLoader",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UnityLoader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnityLoader-Debug-89f401acc3bbbb8f2e33.json",
+					"name" : "UnityLoader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnityLoader.self::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnityLoader.self-Debug-6eb25623e2f2d16b91cd.json",
+					"name" : "UnityLoader.self",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnityLoader.vpk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnityLoader.vpk-Debug-72a742d89470531d17d9.json",
+					"name" : "UnityLoader.vpk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ibrahim/Desktop/AppCPP/build/Debug",
+		"source" : "/home/ibrahim/Desktop/AppCPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
