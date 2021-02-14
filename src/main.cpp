@@ -36,7 +36,7 @@ void CloseUponComplete()
         return;
     }
     sceKernelDelayThread(3*1000000);
-    if(checkFileExist("ux0:data/UnityLoader/COPYTING"))
+    if(checkFileExist("ux0:data/UnityLoader/COPYING"))
     {
         CloseUponComplete();
     }
@@ -69,6 +69,8 @@ int main(int argc, char* argsv[])
     psvDebugScreenInit();
     psvDebugScreenSetFont(psvDebugScreenScaleFont2x(psvDebugScreenGetFont()));
     print("Welcome to UnityLoader C++\n");
+
+    
 
     if(!checkFileExist("ux0:data/UnityLoader/CONFIG_READY"))
     {

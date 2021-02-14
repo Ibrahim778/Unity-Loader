@@ -12,9 +12,7 @@ set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")
 
 set(CMAKE_C_PLATFORM_ID "")
 set(CMAKE_C_SIMULATE_ID "")
-set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_C_SIMULATE_VERSION "")
-
 
 
 
@@ -23,7 +21,6 @@ set(CMAKE_C_COMPILER_AR "/usr/local/vitasdk/bin/arm-vita-eabi-gcc-ar")
 set(CMAKE_RANLIB "/usr/local/vitasdk/bin/arm-vita-eabi-ranlib")
 set(CMAKE_C_COMPILER_RANLIB "/usr/local/vitasdk/bin/arm-vita-eabi-gcc-ranlib")
 set(CMAKE_LINKER "/usr/local/vitasdk/bin/arm-vita-eabi-ld")
-set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -71,7 +68,6 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.1.0/include;/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.1.0/include-fixed;/usr/local/vitasdk/arm-vita-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c;SceRtc_stub;SceSysmem_stub;SceKernelThreadMgr_stub;SceKernelModulemgr_stub;SceIofilemgr_stub;SceProcessmgr_stub;SceLibKernel_stub;SceNet_stub")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.1.0;/usr/local/vitasdk/lib/gcc;/usr/local/vitasdk/arm-vita-eabi/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

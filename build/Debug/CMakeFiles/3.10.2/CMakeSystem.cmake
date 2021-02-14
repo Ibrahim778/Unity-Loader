@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.10.7-3-MANJARO")
+set(CMAKE_HOST_SYSTEM "Linux-4.19.128-microsoft-standard")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.10.7-3-MANJARO")
+set(CMAKE_HOST_SYSTEM_VERSION "4.19.128-microsoft-standard")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/usr/local/vitasdk/share/vita.toolchain.cmake")

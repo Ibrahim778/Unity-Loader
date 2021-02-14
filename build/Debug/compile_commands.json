@@ -1,52 +1,52 @@
 [
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/minizip/ioapi.c.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/minizip/ioapi.c",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/minizip/ioapi.c"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/minizip/ioapi.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/ioapi.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/ioapi.c"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/minizip/unzip.c.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/minizip/unzip.c",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/minizip/unzip.c"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/minizip/unzip.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/unzip.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/unzip.c"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/minizip/zip.c.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/minizip/zip.c",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/minizip/zip.c"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/minizip/zip.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/zip.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/minizip/zip.c"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/main.cpp.obj -c /home/ibrahim/Desktop/AppCPP/src/main.cpp",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/main.cpp"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/main.cpp.obj -c /home/ibrahim/GitRepos/Unity-Loader/src/main.cpp",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/main.cpp"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/usb.c.obj -c /home/ibrahim/Desktop/AppCPP/src/usb.c",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/usb.c"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/usb.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/src/usb.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/usb.c"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/filesystem.cpp.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/filesystem.cpp",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/filesystem.cpp"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/filesystem.cpp.obj -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/filesystem.cpp",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/filesystem.cpp"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/vitaPackage.cpp.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/vitaPackage.cpp",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/vitaPackage.cpp"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/vitaPackage.cpp.obj -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/vitaPackage.cpp",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/vitaPackage.cpp"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/zip.cpp.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/zip.cpp",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/zip.cpp"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-psabi -Wunused-variable -Wwrite-strings -fpermissive -std=c++17 -Wimplicit-fallthrough -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/zip.cpp.obj -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/zip.cpp",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/zip.cpp"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/src/utils/sha1.c.obj -c /home/ibrahim/Desktop/AppCPP/src/utils/sha1.c",
-  "file": "/home/ibrahim/Desktop/AppCPP/src/utils/sha1.c"
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/src/utils/sha1.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/src/utils/sha1.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/src/utils/sha1.c"
 },
 {
-  "directory": "/home/ibrahim/Desktop/AppCPP/build/Debug",
-  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG -o CMakeFiles/UnityLoader.dir/usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c.obj -c /usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c",
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q -Wl,-q -Wall -g -O2 -O0 -g -DDEBUG -D_DEBUG   -o CMakeFiles/UnityLoader.dir/usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c.obj   -c /usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c",
   "file": "/usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c"
 }
 ]

@@ -14,7 +14,7 @@ include("${VITASDK}/share/vita.cmake" REQUIRED)
 
 set(VITA_APP_NAME "Unity Loader")
 
-set(VITA_TITLEID "UNLD48576")
+set(VITA_TITLEID "UNITYLOAD")
 
 set(VITA_VERSION "01.00")
 
