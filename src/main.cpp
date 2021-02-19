@@ -26,6 +26,8 @@ void InstallPackage()
     {
         package->Install();
     }
+    
+    sceIoOpen("ux0:data/UnityLoader/RUNCOMPLETE", SCE_O_WRONLY | SCE_O_CREAT, 0777);
 }
 
 void CloseUponComplete()
@@ -72,7 +74,7 @@ int main(int argc, char* argsv[])
 
     
 
-    if(!checkFileExist("ux0:data/UnityLoader/CONFIG_READY"))
+    if(!checkFileExist("ux0:data/UnityLoader/CONFIG_READY") || checkFileExist("ux0:data/UnityLoader/RUNCOMPLETE"))
     {
         print("Configuration folder not present or configured incorrectly only run this app from unity unless you have made the config beforehand and you know what you're doing.\n");
         goto EXIT;
