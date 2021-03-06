@@ -81,48 +81,10 @@ target_link_libraries(${PROJECT_NAME}
   SceAppMgr_stub
   SceAppUtil_stub
   ftpvita
-  vorbisfile
-  vorbis
-  ogg
-  m
-  c
-  quirc
-  onigmo
+  c 
   archive
-  bz2
-  lzma
-  crypto
-  expat
-  taihen_stub
-  SceAppMgr_stub
-  SceAppUtil_stub
-  SceAudio_stub
-  SceAudiodec_stub
-  SceCamera_stub
-  SceCommonDialog_stub
-  SceCtrl_stub
-  SceDisplay_stub
-  SceFios2_stub
-  SceGxm_stub
-  SceIme_stub
-  SceHttp_stub
-  SceLibKernel_stub
-  SceMtpIfDriver_stub
-  SceMusicExport_stub
-  SceNet_stub
-  SceNetCtl_stub
-  SceNpDrm_stub
-  SceRegistryMgr_stub
-  SceShellSvc_stub
-  SceSqlite_stub
-  SceSsl_stub
   z
-  SceSysmodule_stub
-  ScePgf_stub
-  ScePower_stub
   ScePromoterUtil_stub
-  SceUsbstorVStorDriver_stub
-  SceVshBridge_stub
   SceVshBridge_stub
 )
 
