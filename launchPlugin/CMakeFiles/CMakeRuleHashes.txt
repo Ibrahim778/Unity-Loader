@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+88c4efda4a7f3f089473ce69ce06226d CMakeFiles/ds4vita.skprx

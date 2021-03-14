@@ -1,0 +1,1 @@
+int StartModule(char *path);

@@ -2,14 +2,17 @@
 extern "C" 
 {
     #include "usb.h"
+    //#include "launcher.h"
 }
 #include <common/debugScreen.h>
 
 #include "utils/vitaPackage.h"
 
 #define print psvDebugScreenPrintf
-
+#define exitDelay 3
 #define vpkPath "ux0:data/sent.vpk"
+//char modulePath[] = "ux0:app/UNITYLOAD/ds4vita.skprx";
+
 
 SceUID usbID = -2;
 
@@ -19,7 +22,7 @@ void InstallPackage()
     VitaPackage *package = new VitaPackage(vpkPath);
     if(checkFileExist("ux0:data/UnityLoader/EXTRACTED"))
     {
-        print("Installing already extracted folder...");
+        print("Installing already extracted folder...\n");
         package->InstallExtracted();
     }
     else
@@ -27,7 +30,8 @@ void InstallPackage()
         package->Install();
     }
     
-    sceIoOpen("ux0:data/UnityLoader/RUNCOMPLETE", SCE_O_WRONLY | SCE_O_CREAT, 0777);
+    SceUID file = sceIoOpen("ux0:data/UnityLoader/RUNCOMPLETE", SCE_O_WRONLY | SCE_O_CREAT, 0777);
+    sceIoClose(file);
 }
 
 void CloseUponComplete()
@@ -37,7 +41,7 @@ void CloseUponComplete()
         print("USB ID not set you did not start usb first always run this after you have started USB.\n");
         return;
     }
-    sceKernelDelayThread(3*1000000);
+    sceKernelDelayThread(100);
     if(checkFileExist("ux0:data/UnityLoader/COPYING"))
     {
         CloseUponComplete();
@@ -83,20 +87,18 @@ int main(int argc, char* argsv[])
     if(checkFileExist("ux0:data/UnityLoader/USB"))
     {
         USBMode();
-        InstallPackage();
-        openApp(getTitleID());
     }
-    else
+    if(checkFileExist("ux0:data/UnityLoader/INSTALL"))
     {
         InstallPackage();
         openApp(getTitleID());
     }
-    
+
     goto EXIT;
 
     EXIT:
-        print("closing in 3 seconds\n");
-        sceKernelDelayThread(3*1000000);
+        print("closing in %d seconds\n", exitDelay);
+        sceKernelDelayThread(exitDelay*1000000);
         print("Exiting now!\n");
         sceKernelExitProcess(0);
 }

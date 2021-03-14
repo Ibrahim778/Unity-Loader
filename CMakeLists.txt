@@ -16,7 +16,7 @@ set(VITA_APP_NAME "Unity Loader")
 
 set(VITA_TITLEID "UNITYLOAD")
 
-set(VITA_VERSION "01.00")
+set(VITA_VERSION "01.10")
 
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -g -O2")
@@ -67,16 +67,24 @@ add_executable(${PROJECT_NAME}
 	src/utils/filesystem.cpp
 	src/utils/vitaPackage.cpp
 	src/utils/zip.cpp
+  #src/launcher.c
+  #src/launcher.h
 	src/utils/sha1.c
   /usr/local/vitasdk/arm-vita-eabi/include/common/debugScreen.c
 )
 
+add_resources(${PROJECT_NAME}
+  #${CMAKE_CURRENT_BINARY_DIR}/launchPlugin/ds4vita.skprx
+)
+
 target_link_libraries(${PROJECT_NAME}
   SceLibKernel_stub 
-  SceDisplay_stub   
+  SceDisplay_stub
   taihen_stub
+  kubridge_stub
   SceSysmodule_stub
   SceMtpIfDriver_stub
+  kubridge_stub
   SceUsbstorVStorDriver_stub
   SceAppMgr_stub
   SceAppUtil_stub
@@ -94,4 +102,5 @@ vita_create_vpk("${PROJECT_NAME}.vpk" "${VITA_TITLEID}" "${PROJECT_NAME}.self"
   VERSION "${VITA_VERSION}"
   NAME "${VITA_APP_NAME}"
   FILE sce_sys sce_sys
+  #FILE launchPlugin/ds4vita.skprx ds4vita.skprx
 )

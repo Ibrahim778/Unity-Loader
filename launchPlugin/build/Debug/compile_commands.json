@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/build/Debug",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q -Wall -O3  -O0 -g -DDEBUG -D_DEBUG   -D__VITA_KERNEL__ -o CMakeFiles/ds4vita.elf.dir/main.c.obj   -c /home/ibrahim/GitRepos/Unity-Loader/launchPlugin/main.c",
+  "file": "/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/main.c"
+}
+]

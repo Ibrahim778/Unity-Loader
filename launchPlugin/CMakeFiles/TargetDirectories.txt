@@ -1,0 +1,4 @@
+/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/CMakeFiles/edit_cache.dir
+/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/CMakeFiles/rebuild_cache.dir
+/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/CMakeFiles/ds4vita.elf.dir
+/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/CMakeFiles/ds4vita.skprx.dir

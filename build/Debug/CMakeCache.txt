@@ -204,8 +204,14 @@ VITA_ELF_CREATE_FLAGS:STRING=
 //vita-elf-export
 VITA_ELF_EXPORT:PATH=/usr/local/vitasdk/bin/vita-elf-export
 
+//vita-elf-export flags
+VITA_ELF_EXPORT_FLAGS:STRING=
+
 //vita-libs-gen
 VITA_LIBS_GEN:PATH=/usr/local/vitasdk/bin/vita-libs-gen
+
+//vita-libs-gen flags
+VITA_LIBS_GEN_FLAGS:STRING=
 
 //vita-make-fself
 VITA_MAKE_FSELF:PATH=/usr/local/vitasdk/bin/vita-make-fself

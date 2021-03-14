@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ibrahim/GitRepos/Unity-Loader/launchPlugin/main.cpp
+psp2kern/kernel/modulemgr.h
+-
+psp2kern/kernel/threadmgr.h
+-
+psp2kern/kernel/sysmem.h
+-
+psp2kern/kernel/suspend.h
+-
+psp2kern/bt.h
+-
+psp2kern/ctrl.h
+-
+psp2/touch.h
+-
+psp2/motion.h
+-
+taihen.h
+-
+vitasdkkern.h
+-
+stdio.h
+-
+string
+-
+string.h
+-
+stdlib.h
+-
+malloc.h
+-
+

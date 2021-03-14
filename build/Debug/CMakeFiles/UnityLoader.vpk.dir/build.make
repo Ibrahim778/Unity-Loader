@@ -64,7 +64,7 @@ UnityLoader.vpk.out: ../../sce_sys
 
 UnityLoader.vpk_param.sfo: UnityLoader.self
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ibrahim/GitRepos/Unity-Loader/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating param.sfo for UnityLoader.vpk"
-	/usr/local/vitasdk/bin/vita-mksfoex -s APP_VER=01.00 -s TITLE_ID=UNITYLOAD Unity\ Loader /home/ibrahim/GitRepos/Unity-Loader/build/Debug/UnityLoader.vpk_param.sfo
+	/usr/local/vitasdk/bin/vita-mksfoex -s APP_VER=01.10 -s TITLE_ID=UNITYLOAD Unity\ Loader /home/ibrahim/GitRepos/Unity-Loader/build/Debug/UnityLoader.vpk_param.sfo
 
 UnityLoader.vpk: CMakeFiles/UnityLoader.vpk
 UnityLoader.vpk: UnityLoader.vpk.out
