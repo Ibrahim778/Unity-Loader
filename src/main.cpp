@@ -9,7 +9,7 @@ extern "C"
 #include "utils/vitaPackage.h"
 
 #define print psvDebugScreenPrintf
-#define exitDelay 3
+#define exitDelay 1000
 #define vpkPath "ux0:data/sent.vpk"
 //char modulePath[] = "ux0:app/UNITYLOAD/ds4vita.skprx";
 
@@ -54,6 +54,21 @@ void CloseUponComplete()
     return;
 }
 
+void launchThread()
+{
+    sceClibPrintf("Launch thread started!");
+	char uri[32];
+	snprintf(uri, sizeof(uri), "psgm:play?titleid=%s", getTitleID().c_str());
+
+	int res = sceAppMgrLaunchAppByUri(0x20000, uri);
+	sceKernelExitDeleteThread(res);
+}
+
+void openApp() {
+	SceUID ThreadID = sceKernelCreateThread("Launchthread", (SceKernelThreadEntry)launchThread, 0x10000100, 0x10000, 0, 0, NULL);
+    int res = sceKernelStartThread(ThreadID, 0, NULL);
+}
+
 int USBMode()
 {
     print("Starting USB\n");
@@ -91,14 +106,14 @@ int main(int argc, char* argsv[])
     if(checkFileExist("ux0:data/UnityLoader/INSTALL"))
     {
         InstallPackage();
-        openApp(getTitleID());
+        openApp();
     }
 
     goto EXIT;
 
     EXIT:
-        print("closing in %d seconds\n", exitDelay);
-        sceKernelDelayThread(exitDelay*1000000);
+        //print("closing in %d seconds\n", exitDelay);
+        sceKernelDelayThread(exitDelay);
         print("Exiting now!\n");
         sceKernelExitProcess(0);
 }

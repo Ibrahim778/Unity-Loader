@@ -53,6 +53,5 @@ private:
 };
 
 bool isPackageInstalled(std::string titleid);
-void openApp(std::string titleid);
 std::string getTitleID();
 

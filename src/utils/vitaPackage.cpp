@@ -259,11 +259,6 @@ int VitaPackage::InstallExtracted() {
 	return 1;
 }
 
-std::string getTitleID()
-{
-	return TitleID;
-}
-
 int VitaPackage::Install() {
 	Extract();
 	return InstallExtracted();
@@ -304,9 +299,9 @@ bool isPackageInstalled(std::string titleid) {
 	return installed >= 0;
 }
 
-void openApp(std::string titleid) {
-	char uri[32];
-	snprintf(uri, sizeof(uri), "psgm:play?titleid=%s", titleid.c_str());
-
-	sceAppMgrLaunchAppByUri(0x20000, uri);
+std::string getTitleID()
+{
+	return TitleID;
 }
+
+
